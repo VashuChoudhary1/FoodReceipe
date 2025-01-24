@@ -133,8 +133,8 @@ class _SearchState extends State<Search> {
                                 Navigator.push(
                                     context,
                                     MaterialPageRoute(
-                                        builder: (context) => Recipeview(
-                                            recipeList[index].appUrl)));
+                                        builder: (context) =>
+                                            Recipeview(recipeList[index])));
                               },
                               child: Card(
                                   margin: EdgeInsets.all(10),
